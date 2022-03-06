@@ -1,0 +1,71 @@
+                         // Variables  
+
+
+
+// $f-f: 'Rowdies', cursive;
+
+$blue: #0065fc;
+$dark: #333;
+$gray: #ddd;
+$gray-light: #eee;
+$gray-hint: #555;             
+
+
+//***********************************************************************************************************
+
+
+                             // config
+
+
+
+@mixin param-button-search {
+  color: white;
+  background: $blue;
+  border-start-start-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+
+
+//***********************************************************************************************************
+
+
+                       // Medias queries 
+
+
+
+                       
+@mixin sm {
+    @media screen and (max-width: 400px) {
+      @content;
+    }
+  }
+  
+  @mixin md {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+  }
+  
+  @mixin lg {
+    @media screen and (max-width: 900px) {
+      @content;
+    }
+  }
+
+  
+  @mixin inter {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @mixin xl {
+    @media screen and (max-width: 1440px) {
+      @content;
+    }
+  }
