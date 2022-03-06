@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/loft897/P2-Reservia/issues"
   },
-  "homepage": "https://github.com/loft897/P2-Reservia#readme"
+  "homepage": "https://github.com/loft897/P2-Reservia#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
 }
