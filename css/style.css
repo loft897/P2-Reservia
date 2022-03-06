@@ -71,7 +71,6 @@ header .nav div {
   text-align: center;
 }
 header .nav div a {
-  padding: 20px;
   text-decoration: none;
   color: black;
 }
@@ -92,19 +91,23 @@ header .nav .login {
 }
 header .nav .login a {
   color: #0065fc;
+  padding: 20px;
 }
 header .nav .hos {
   grid-area: hos;
-  color: #0065fc;
 }
 header .nav .hos > .underline-effect {
   background: #0065fc;
 }
 header .nav .hos a {
   color: #0065fc;
+  padding: 20px;
 }
 header .nav .act {
   grid-area: act;
+}
+header .nav .act a {
+  padding: 20px;
 }
 header .nav .act:hover > .underline-effect {
   background: #0065fc;

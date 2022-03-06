@@ -72,7 +72,7 @@ header {
     div {
       text-align: center;
       a {
-        padding: 20px;
+       
         &:hover {
           color: $blue;
         }
@@ -95,22 +95,26 @@ header {
       font-weight: bold;
       a{
         color: $blue;
+        padding: 20px;
       }
     }
 
     .hos {
       grid-area: hos;
-      color: $blue;
       &> .underline-effect {
         background: $blue;
       }
       a{
         color: $blue;
+        padding: 20px;
       }
     }
 
     .act {
       grid-area: act;
+      a{
+        padding: 20px;
+      }
       &:hover> .underline-effect {
         background: $blue;
       }
